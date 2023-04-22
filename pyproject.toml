@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "hw13-2"
+version = "0.1.0"
+description = ""
+authors = ["VadymBoyko <109297726+VadymBoyko@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "hw13_2"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+django = "^4.2"
+psycopg2 = "^2.9.6"
+environ = "^1.0"
+django-environ = "^0.10.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
